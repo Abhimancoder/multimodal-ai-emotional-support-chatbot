@@ -1,0 +1,30 @@
+# Python virtual environment
+.venv/
+venv/
+ENV/
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+
+# Environment files containing secrets
+.env
+.env.local
+.streamlit/secrets.toml
+
+# Local storage directories
+storage/uploads/*
+!storage/uploads/.gitkeep
+storage/audio_cache/*
+!storage/audio_cache/.gitkeep
+storage/chromadb/
+*.db
+*.sqlite3
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
